@@ -1,36 +1,36 @@
-# 7.5" ePaper Frame Enclosure
+# DSH-PROSE
 
-A lightweight, 3D-printable slotted frame enclosure designed specifically for a 7.5" monochrome ePaper display and custom PCB stack. Built to bypass complex mesh structures with a simple, high-strength layered track layout.
+An open-source, low-power desktop dashboard hardware system featuring a custom ESP32-S3 driver board and a 7.5" monochrome ePaper display, housed inside a 3D-printed slotted track frame enclosure.
 
-![Project Banner](link-to-your-banner-art.png)
+![Project Banner](assets/banner.png)
 
-## Features
+## Overview
 
-* **Custom-Fit Profile:** Engineered to house a 7.5" ePaper panel (170.2mm × 111.2mm × 1.2mm).
-* **Slotted Track System:** Allows seamless stacking of the display panel and driver PCB.
-* **Open Channel Access:** Keeps side ports and the 24-pin FPC ribbon cable accessible without pinching.
-* **Low Filament & Quick Print:** Designed as a hollow perimeter frame for fast print times and minimal material usage.
-
-## Hardware & Dimensions
-
-* **Display:** Seeed Studio 7.5" Monochrome ePaper Display (800×480 resolution)
-* **Frame Outer Dimensions:** [Insert your length] mm × [Insert your width] mm × [Insert your height] mm
-* **Material:** Printable in PLA or PETG (0.2mm layer height recommended)
-
-## Print Settings & Assembly
-
-1. **Slicing:** Import `frame.stl` into your slicer of choice (PrusaSlicer, Bambu Studio, Cura).
-2. **Infill:** 15–20% Gyroid or Grid infill.
-3. **Supports:** None required if oriented flat on the print bed.
-4. **Embedded Hardware Option:** Add a print pause (`M600`) at the top lip layer height to drop the screen into the frame slot mid-print for a permanently trapped fit.
-
-## Repository Contents
-
-* `/cad` - STL files and source 3D models
-* `/src` - Display driver code and pinout configurations
-* `/schematics` - PCB layout and hardware schematics
-* `/assets` - Graphics and demo media
+DSH-PROSE combines a custom PCB layout, a high-contrast 7.5" ePaper screen, and an optimized 3D-printable frame into a clean, low-profile desktop device. Built to operate efficiently with low power overhead, it displays real-time updates while keeping ports, controls, and ribbon cabling clean and strain-free.
 
 ---
 
-*Built for shipping.*
+## Hardware Specifications
+
+### Mainboard & Display
+* **Microcontroller:** ESP32-S3 (Wi-Fi / Bluetooth LE, onboard storage, GPIO layout)
+* **Display Panel:** Seeed Studio 7.5" Monochrome ePaper Display
+  * **Resolution:** 800 × 480 pixels
+  * **Interface:** SPI via 24-Pin FPC connection
+  * **Panel Dimensions:** 170.2mm × 111.2mm × 1.2mm
+* **Power & Connectivity:** USB-C power/flashing, onboard power management, and break-out headers.
+
+### Enclosure Design
+* **Form Factor:** 3D-printed hollow perimeter frame with integrated stacking tracks.
+* **Cable Routing:** Strain-relief notch for the 24-pin FPC ribbon cable.
+* **Assembly Method:** Slide-in track layout (supports mid-print `M600` pause-and-embed manufacturing).
+
+---
+
+## Repository Structure
+
+```text
+├── assets/         # Project banners, photos, and UI diagrams
+├── cad/            # STL files, Tinkercad exports, and 3D frame models
+├── firmware/       # ESP32-S3 source code, display drivers, and Wi-Fi modules
+└── hardware/       # KiCad schematics, PCB Gerber files, and BOM
