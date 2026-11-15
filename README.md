@@ -2,6 +2,10 @@
 
 A pocket e-paper reader and notebook. Read plain-text books, sketch on separate notebook pages, and attach handwritten notes to book passages. The firmware is C++ for the DSH-Prose Rev D board and its 7.5-inch Good Display GDEY075T7-T01 touchscreen.
 
+![DSH-Prose studio render showing the screen, curved navy back, and side stylus clips](assets/DSH-Prose-Studio-Ad.png)
+
+[KiCad project](hardware/) · [Printable enclosure](cad/) · [Assembly view](assets/DSH-Prose-Assembly.png) · [Blender scene](assets/DSH-Prose-Studio.blend)
+
 ## Build for Rev D
 
 Install [PlatformIO Core](https://docs.platformio.org/en/latest/core/installation/index.html), then run these commands from the repository root.
