@@ -1156,7 +1156,7 @@
 (label "GND" (at 464.82 264.16 0) (effects (font (size 1.17 1.17)) (justify left bottom)) (uuid "26b373b3-6459-4646-af6f-3f5da26730d8"))
 (text "Short/long-press behavior is defined in firmware." (at 401.32 294.64 0) (effects (font (size 1.35 1.35)) (justify left)) (uuid "6bb263d2-a243-4958-8cdb-d7482a1d9526"))
 (text "Reader and Scribe share display and storage." (at 401.32 304.8 0) (effects (font (size 1.35 1.35)) (justify left)) (uuid "d6c606fc-b0e0-431d-b380-626b4c77f2f0"))
-(text "DSH-Prose  /  Rev C" (at 17.78 358.14 0) (effects (font (size 3 3) (bold yes)) (justify left)) (uuid "92f19830-7396-4439-a92a-51537c70caa0"))
+(text "DSH-Prose  /  Rev D" (at 17.78 358.14 0) (effects (font (size 3 3) (bold yes)) (justify left)) (uuid "92f19830-7396-4439-a92a-51537c70caa0"))
 (text "2 copper layers  /  U1 PCB antenna  /  Touch module harness" (at 17.78 368.3 0) (effects (font (size 1.5 1.5)) (justify left)) (uuid "796fec43-45ed-43d6-8f43-fdc6802f677f"))
 (sheet_instances (path "/" (page "1")))
 (embedded_fonts no)

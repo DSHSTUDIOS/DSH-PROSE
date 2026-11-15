@@ -1,0 +1,45 @@
+Category,Designators,Item,Qty per device,Unit,Owned,Manufacturer part or spec,Package or material,LCSC,Purchase link,Notes
+Fabrication,PCB1,Custom Rev D bare PCB,1,board,No,DSH-Prose Rev D,"2-layer FR-4, 1.0 mm, 1 oz, lead-free HASL",,https://jlcpcb.com/PCBQuote,Upload hardware/gerbers.zip. Check the 0.20 mm drill capability before ordering.
+Fabrication,PCBA1,Two-sided PCB assembly,1,service,No,Standard PCBA,Front and back SMT,,https://jlcpcb.com/pcb-assembly,"PCB component rows are placements for the same board. Check stock, vendor rotations and any customer-supplied parts when quoting."
+PCB component,U1,ESP32-S3 RF module,1,piece,No,ESP32-S3-WROOM-1-N8R2,25.5 x 18 mm module,C2913204,https://www.lcsc.com/product-detail/C2913204.html,"8 MB flash, 2 MB QSPI PSRAM and on-module antenna."
+PCB component,U2,4.2 V LiPo charger,1,piece,No,MCP73831T-2ACI/OT,SOT-23-5,C424093,https://www.lcsc.com/product-detail/C424093.html,
+PCB component,U3,3.3 V regulator,1,piece,No,AP2112K-3.3TRG1,SOT-23-5,C51118,https://www.lcsc.com/product-detail/C51118.html,
+PCB component,U4,USB data switch,1,piece,No,TS3USB221ARSER,"UQFN-10, RSE",C128396,https://www.lcsc.com/product-detail/C128396.html,
+PCB component,D1,Red charge LED,1,piece,No,KT-0603R,0603,C2286,https://www.lcsc.com/product-detail/C2286.html,
+PCB component,D2,Dual USB ESD protection,1,piece,No,TPD2E2U06DCKR,SC70-3,C1855726,https://www.lcsc.com/product-detail/C1855726.html,
+PCB component,Q1,P-channel MOSFET,1,piece,No,AO3401A,SOT-23,C15127,https://www.lcsc.com/product-detail/C15127.html,
+PCB component,Q2,N-channel MOSFET,1,piece,No,2N7002,SOT-23,C8545,https://www.lcsc.com/product-detail/C8545.html,
+PCB component,J1,USB-C USB 2.0 receptacle,1,piece,No,TYPE-C-31-M-12,16-pin SMT,C165948,https://www.lcsc.com/product-detail/C165948.html,
+PCB component,J2,Battery header,1,piece,No,B2B-PH-SM4-TB(LF)(SN),"JST PH 2.0 mm, 2 pin SMT",C160352,https://www.lcsc.com/product-detail/C160352.html,
+PCB component,J3,Display harness header,1,piece,No,BM12B-GHS-TBT,"JST GH 1.25 mm, 12 pin SMT",,https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM12B-GHS-TBT/807810,
+PCB component,J4,Push-push microSD socket,1,piece,No,DM3AT-SF-PEJM5,SMT with card detect,C114218,https://www.lcsc.com/product-detail/C114218.html,
+PCB component,SW1,Run/Charge slide switch,1,piece,No,MSK12C02,SPDT SMT,C431540,https://www.lcsc.com/product-detail/C431540.html,
+PCB component,"SW2,SW3",Boot and reset switches,2,piece,No,SKRTLAE010,Side-actuated SMT,C110293,https://www.lcsc.com/product-detail/C110293.html,
+PCB component,"SW4,SW5,SW6",Front user button switches,3,piece,No,TS-1088-AR02016,Top-actuated SMT,C720477,https://www.lcsc.com/product-detail/C720477.html,Place on the back copper side toward the display.
+PCB component,"C1,C2,C3,C4,C7,C10,C12","10 uF, 25 V, X5R",7,piece,No,CL21A106KAYNNNE,0805,C15850,https://www.lcsc.com/product-detail/C15850.html,
+PCB component,"C5,C8,C9,C11,C13","100 nF, 50 V, X7R",5,piece,No,CC0603KRX7R9BB104,0603,C14663,https://www.lcsc.com/product-detail/C14663.html,
+PCB component,C6,"1 uF, 25 V, X7R",1,piece,No,CL10B105KA8NNNC,0603,C29936,https://www.lcsc.com/product-detail/C29936.html,
+PCB component,"R1,R2",5.1 kΩ resistor,2,piece,No,0603WAF5101T5E,0603,C23186,https://www.lcsc.com/product-detail/C23186.html,
+PCB component,"R3,R6,R7,R8,R11,R12,R15,R16,R17,R18,R19,R20",10 kΩ resistor,12,piece,No,0603WAF1002T5E,0603,C25804,https://www.lcsc.com/product-detail/C25804.html,
+PCB component,R4,1 kΩ resistor,1,piece,No,0603WAF1001T5E,0603,C21190,https://www.lcsc.com/product-detail/C21190.html,
+PCB component,R5,100 kΩ resistor,1,piece,No,0603WAF1003T5E,0603,C25803,https://www.lcsc.com/product-detail/C25803.html,
+PCB component,"R9,R10",22 Ω resistor,2,piece,No,0603WAF220JT5E,0603,C23345,https://www.lcsc.com/product-detail/C23345.html,
+PCB component,"R13,R14",4.7 kΩ resistor,2,piece,No,0603WAF4701T5E,0603,C23162,https://www.lcsc.com/product-detail/C23162.html,
+PCB component,R21,47 kΩ resistor,1,piece,No,0603WAF4702T5E,0603,C25819,https://www.lcsc.com/product-detail/C25819.html,
+Display,DISP1,7.5-inch 800 × 480 touch e-paper panel,1,piece,No,GDEY075T7-T01,UC8179 e-paper and GT911 touch,,https://www.buy-lcd.com/products/gdey075t7-t01,Select the panel-only SKU. Check exact -T01 availability with the seller.
+Display,ADP1,24-pin e-paper boost adapter,1,piece,No,DESPI-C02,0.50 mm FPC,,https://www.laskakit.cz/en/good-display-despi-c02-univerzalni-spi-e-paper-adapter/,Use the 0.47 Ω RESE setting. Confirm stock or request a standalone adapter from Good Display.
+Display,ADP2,GT911 flex adapter,1,piece,No,LaskaKit e-Paper Touch adapter,Use the dedicated GDEY075T7-T01 socket,,https://www.laskakit.cz/en/laskakit-e-paper-touch-adapter/,Follow the J3 harness table for INT and RESET. Open the onboard pull-up jumper.
+Harness,H1,JST GH 12-position plug housing,1,piece,No,GHR-12V-S,1.25 mm pitch,,https://www.digikey.com/en/products/detail/jst-sales-america-inc/GHR-12V-S/807824,
+Harness,H2,Pre-crimped JST GH leads,6,double-ended leads,No,AGHGH28K203,"28 AWG, 203 mm",,https://www.digikey.com/en/products/detail/jst-sales-america-inc/AGHGH28K203/10108416,Cut in half for twelve approximately 100 mm leads. Dry-route before cutting or order longer leads if needed.
+Power,BAT1,Protected 1S LiPo battery,1,piece,No,"Adafruit 258, 3.7 V nominal, 1200 mAh","JST-PH, 34 × 62 × 5 mm nominal",,https://www.adafruit.com/product/258,"Verify J2 polarity, cable routing, and clearance with the actual battery."
+Storage,SD1,microSDHC memory card,1,piece,No,SanDisk Ultra 16 GB,FAT32,,https://www.sandisk.com/products/memory-cards/microsd-cards/sandisk-ultra-uhs-i-microsd,Format FAT32 and copy .txt books into /books.
+Accessory,USB1,USB-C data cable,1,piece,No,Adafruit 4199 or equivalent data cable,USB-C to USB-C,,https://www.adafruit.com/product/4199,Needed to flash and charge.
+Accessory,PEN1,Optional passive capacitive stylus,1,piece,No,Targus AMM01TBUS or equivalent,Look for a barrel near the 9.7 mm CAD reference,,https://us.targus.com/products/stylus-for-tablets-and-smartphones-black-amm01tbus?variant=14356732346426,Example source only. Test the GT911 and clip fit on the actual pen.
+Enclosure,CASE1,Front frame print,1,part,No,01-Black-Front-Frame.stl,Matte black nylon or equivalent,,https://jlc3dp.com/,Quote using the STL in cad/.
+Enclosure,CASE2,Curved back print,1,part,No,02-Curved-Navy-Back.stl,Translucent navy resin or clear resin with tint,,https://jlc3dp.com/,Confirm dark blue finish and prototype the screw bosses.
+Enclosure,CASE3,Front keycap prints,3,parts,No,03-Front-Keycap.stl,Black print material,,https://jlc3dp.com/,Quote three copies. Check the vendor's smallest supported part size.
+Enclosure,CASE4,Side stylus clip prints,2,parts,No,04-TPU-Side-Clip.stl,Flexible TPU,,https://craftcloud3d.com/en/p/3d-printing-services,Quote two copies with a supplier that can print these small clips.
+Hardware,M1,Case closure screws,4,pieces,No,"M2.5 × 6 mm thread-forming, countersunk",90° flat head for plastic,,https://www.aspenfasteners.com/m2-5-x-6mm-thread-rolling-screws-for-plastics-metric-flat-pozi-recess-type-z-steel-zinc-plated/,"Confirm head diameter, depth and pilot fit on the printed shells."
+Hardware,M2,PCB mounting screws,4,pieces,No,"M2 × 4 mm thread-forming, pan head",For 1.68 mm printed pilot holes,,https://www.mcmaster.com/products/metric-thread-forming-screws/,Choose compatible size and verify depth in the back standoffs.
+Assembly,T1,Thin perimeter adhesive,1,roll,No,3M 467MP-12-5,0.05 mm adhesive transfer tape,,https://www.digikey.com/en/products/detail/3m-tc/467MP-12-5/2657972,Use narrow strips around the display ledge. Keep clear of the flex tails.
+Assembly,T2,Flexible adhesive for stylus clips,1,tube,No,E6000 Clear,Flexible adhesive,,https://www.michaels.com/product/e6000-multipurpose-adhesive-5oz-clear-511998506471473156,Test on a spare clip and shell material before assembly.

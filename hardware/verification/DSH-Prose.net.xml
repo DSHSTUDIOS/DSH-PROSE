@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/Users/pratik/Documents/Codex/2026-11-11/im/outputs/DSH-Prose-Rev-D/DSH-Prose.kicad_sch</source>
-    <date>2026-11-14T15:24:44-0500</date>
+    <source>/Users/pratik/Documents/Codex/2026-11-11/im/work/prose/reference-repo/hardware/DSH-Prose.kicad_sch</source>
+    <date>2026-11-15T17:50:18-0500</date>
     <tool>Eeschema 9.0.8</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1150,7 +1150,7 @@
   </libparts>
   <libraries>
     <library logical="DSH_PROSE">
-      <uri>/Users/pratik/Documents/Codex/2026-11-11/im/outputs/DSH-Prose-Rev-D/DSH_PROSE.kicad_sym</uri>
+      <uri>/Users/pratik/Documents/Codex/2026-11-11/im/work/prose/reference-repo/hardware/DSH_PROSE.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
