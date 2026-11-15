@@ -1,0 +1,4 @@
+(sym_lib_table
+ (version 7)
+ (lib (name "DSH_PROSE") (type "KiCad") (uri "${KIPRJMOD}/DSH_PROSE.kicad_sym") (options "") (descr "DSH-Prose symbols"))
+)
